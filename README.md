@@ -4,12 +4,12 @@ Ensure that you have docker-compose and docker installed on your machine.
 Download [Docker Desktop](https://www.docker.com/products/docker-desktop/) to get both.
 
 ## Getting Started
-Run `yarn` to install all packages  
-Run `yarn test:all` to run the test suites 
-Run `yarn docker:down` after to bring the docker postgressql instance down
+a. Run `yarn` to install all packages  
+b. Run `yarn test:all` to run the test suites  
+c. Run `yarn docker:down` after to bring the docker postgressql instance down
 
-Fix the faulty test case  
-Un-comment the console.log to find out more  
+1. Fix the faulty test case  
+2. Un-comment the console.log to find out more  
 
 ## Making schema changes
 Coming soon
