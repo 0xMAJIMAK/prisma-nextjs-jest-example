@@ -1,13 +1,13 @@
 ## Prerequisities
 Ensure that you have docker-compose and docker installed on your machine.
 
-Download Docker Desktop to get both.
+Download [Docker Desktop](https://www.docker.com/products/docker-desktop/) to get both.
 
 ## Getting Started
-Run `yarn` to install all packages
-Run `yarn test:all` to run the test suites
-Fix the faulty test case
-Un-comment the console.logs to find out more
+Run `yarn` to install all packages  
+Run `yarn test:all` to run the test suites  
+Fix the faulty test case  
+Un-comment the console.logs to find out more  
 
 ## Making schema changes
 Coming soon
