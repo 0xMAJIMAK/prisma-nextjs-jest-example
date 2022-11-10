@@ -5,9 +5,11 @@ Download [Docker Desktop](https://www.docker.com/products/docker-desktop/) to ge
 
 ## Getting Started
 Run `yarn` to install all packages  
-Run `yarn test:all` to run the test suites  
+Run `yarn test:all` to run the test suites 
+Run `yarn docker:down` after to bring the docker postgressql instance down
+
 Fix the faulty test case  
-Un-comment the console.logs to find out more  
+Un-comment the console.log to find out more  
 
 ## Making schema changes
 Coming soon

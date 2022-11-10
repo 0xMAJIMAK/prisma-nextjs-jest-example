@@ -74,12 +74,14 @@ describe('Create order API', () => {
     const status = jest.fn(() => ({ json }))
     const res = { status }
     await createOrderHandler(req as any, res as any)
-    expect(status).toHaveBeenCalledWith(200)
+    // FIX THIS TEST
+    expect(status).toHaveBeenCalledWith(400)
     // console.log(json.mock.calls[0][0]);
+    // FIX THIS TEST
     expect(json.mock.calls[0][0]).toMatchObject({
       customer: {
         id: 1,
       }
-    }); // FIX THIS TEST
+    }); 
   })
 })
